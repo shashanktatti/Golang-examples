@@ -29,4 +29,5 @@ func main() {
 	// PI = 3.1412  // gives you error as PI is const
 
 	fmt.Printf("Area of Circle: %f , Value Of PI : %f \n", area, PI);
+	fmt.Printf("Type of PI: %T, Type of Radius: %T, Type of Area: %T\n", PI, radius, area)
 }
